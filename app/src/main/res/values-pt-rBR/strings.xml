@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Track Bill\'s</string>
+    <string name="accessibility_description_background">Fundo azul</string>
+    <string name="input_type_allowed_char_name">ABCDEFGHIJKLMNOPQRSTUVWYXZÁÃÂÉÊÍÓÔÕÚÇ abcdefghijklmnopqrstuvwyxzáâãéêíóõôúç</string>
+    <string name="toast_invalid_data">Dados inválidos</string>
+    <string name="fragment_home_button_login">"Entrar"</string>
+    <string name="fragment_home_button_signup">"Registre-se"</string>
+    <string name="fragment_home_textview_status">"Bem-vindo"</string>
+    <string name="fragment_login_button_login">"Entrar"</string>
+    <string name="fragment_login_edittext_login">"Login"</string>
+    <string name="fragment_login_edittext_password">"Senha"</string>
+    <string name="fragment_login_textview_status">"Entrar"</string>
+    <string name="fragment_register_edittext_name">"Nome"</string>
+    <string name="fragment_register_edittext_login">"Login"</string>
+    <string name="fragment_register_edittext_password">"Senha"</string>
+    <string name="fragment_register_edittext_confirm_password">"Confirmar senha"</string>
+    <string name="fragment_register_button_register">"Registrar"</string>
+</resources>

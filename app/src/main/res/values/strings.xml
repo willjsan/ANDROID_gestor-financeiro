@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">TrackBills</string>
+    <string name="app_name">Track Bill\'s</string>
+    <string name="accessibility_description_background">Blue background</string>
+    <string name="input_type_allowed_char_name">ABCDEFGHIJKLMNOPQRSTUVWYXZ abcdefghijklmnopqrstuvwyxz\'</string>
+    <string name="input_type_allowed_char_login" translatable="false">abcdefghijklmnopqrstuvwyxz@.0123456789</string>
+    <string name="input_type_allowed_char_password" translatable="false">abcdefghijklmnopqrstuvwyxzABCDEFGHIJKLMNOPQRSTUVWYXZ#$%!@0123456789</string>
+    <string name="toast_invalid_data">invalid data</string>
+    <string name="fragment_home_button_login">"Sign in"</string>
+    <string name="fragment_home_button_signup">"Sign up"</string>
+    <string name="fragment_home_textview_status">"Welcome"</string>
+    <string name="fragment_login_button_login">"Login"</string>
+    <string name="fragment_login_edittext_login">"Login"</string>
+    <string name="fragment_login_edittext_password">"Password"</string>
+    <string name="fragment_login_textview_status">"Sign in"</string>
+    <string name="fragment_register_edittext_name">"Name"</string>
+    <string name="fragment_register_edittext_login">"Login"</string>
+    <string name="fragment_register_edittext_password">"Password"</string>
+    <string name="fragment_register_edittext_confirm_password">"Confirm password"</string>
+    <string name="fragment_register_button_register">"Register"</string>
 </resources>
