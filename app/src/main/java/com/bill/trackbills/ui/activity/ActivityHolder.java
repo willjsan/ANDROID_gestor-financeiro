@@ -1,7 +1,9 @@
 package com.bill.trackbills.ui.activity;
 
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bill.trackbills.Debug;
@@ -19,6 +21,23 @@ public class ActivityHolder extends AppCompatActivity {
         if (Debug.IS_LOGGABLE) {
             Debug.Logger.d(TAG, "onCreate");
         }
+        setActionBarColor();
+    }
+
+    /**
+     * must change the approach to set the ActionBar color
+     */
+    private void setActionBarColor() {
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+
+            if (Debug.IS_LOGGABLE) {
+                Debug.Logger.d(TAG, "onActionBarColorChanged");
+            }
+
+            actionBar.setBackgroundDrawable(new ColorDrawable(
+                    getResources().getColor(R.color.app_blue_dark, getTheme())));
+        }
     }
 
     @Override
@@ -27,7 +46,6 @@ public class ActivityHolder extends AppCompatActivity {
         if (Debug.IS_LOGGABLE) {
             Debug.Logger.d(TAG, "onPause");
         }
-
     }
 
     @Override

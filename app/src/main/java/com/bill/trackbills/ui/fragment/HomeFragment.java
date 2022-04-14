@@ -25,14 +25,24 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         if (Debug.IS_LOGGABLE) {
             Debug.Logger.d(TAG, "onViewCreated");
         }
 
         setClickSignUpButtonListener(view.findViewById(R.id.tv_home_signin));
         setClickLoginButtonListener(view.findViewById(R.id.bt_home_login));
+        setClickAboutButtonListener(view.findViewById(R.id.tv_home_about));
     }
+
+    private void setClickAboutButtonListener(TextView tv_about) {
+        tv_about.setOnClickListener(view -> {
+            if (Debug.IS_LOGGABLE) {
+                Debug.Logger.d(TAG, "onAboutClicked");
+            }
+            inflateFragment(new AboutFragment());
+        });
+    }
+
 
     private void setClickLoginButtonListener(Button bt_login) {
         bt_login.setOnClickListener(fragmentView -> {

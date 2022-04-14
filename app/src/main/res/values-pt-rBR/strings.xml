@@ -16,4 +16,5 @@
     <string name="fragment_register_edittext_password">"Senha"</string>
     <string name="fragment_register_edittext_confirm_password">"Confirmar senha"</string>
     <string name="fragment_register_button_register">"Registrar"</string>
+    <string name="fragment_home_textview_about">Sobre</string>
 </resources>
