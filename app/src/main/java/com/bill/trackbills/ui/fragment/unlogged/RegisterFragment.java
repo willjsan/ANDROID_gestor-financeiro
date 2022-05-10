@@ -1,4 +1,4 @@
-package com.bill.trackbills.ui.fragment;
+package com.bill.trackbills.ui.fragment.unlogged;
 
 import android.os.Bundle;
 import android.util.Log;

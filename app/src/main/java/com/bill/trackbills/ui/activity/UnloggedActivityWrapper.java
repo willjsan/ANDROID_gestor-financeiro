@@ -9,14 +9,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.bill.trackbills.Debug;
 import com.bill.trackbills.R;
 
-public class ActivityHolder extends AppCompatActivity {
+public class UnloggedActivityWrapper extends AppCompatActivity {
 
-    private final String TAG = ActivityHolder.class.getSimpleName();
+    private final String TAG = UnloggedActivityWrapper.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_holder);
+        setContentView(R.layout.activity_unlogged_wrapper);
 
         if (Debug.IS_LOGGABLE) {
             Debug.Logger.d(TAG, "onCreate");

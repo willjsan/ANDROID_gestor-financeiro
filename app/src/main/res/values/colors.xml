@@ -10,4 +10,5 @@
     <color name="app_blue_light">#8ABAF4</color>
     <color name="app_blue_medium">#3A89EA</color>
     <color name="app_blue_dark">#076BE6</color>
+    <color name="app_gray_soft">#CFCFCF</color>
 </resources>

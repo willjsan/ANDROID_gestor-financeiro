@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_dark"
-    tools:context=".ui.fragment.RegisterFragment">
+    tools:context=".ui.fragment.unlogged.RegisterFragment">
 
     <EditText
         android:id="@+id/et_reg_name"

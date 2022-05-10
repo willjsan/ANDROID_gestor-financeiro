@@ -1,4 +1,4 @@
-package com.bill.trackbills.ui.fragment;
+package com.bill.trackbills.ui.fragment.unlogged;
 
 import android.os.Bundle;
 import android.view.View;
@@ -72,7 +72,7 @@ public class HomeFragment extends Fragment {
 
         FragmentManager fragmentManager = getParentFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.fragmentcontainerview_wrapper, fragment)
+        fragmentTransaction.add(R.id.unlogged_activity_fragment_container, fragment)
                 .addToBackStack(null).commit();
     }
 

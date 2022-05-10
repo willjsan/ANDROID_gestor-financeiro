@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_dark"
-    tools:context=".ui.fragment.LoginFragment">
+    tools:context=".ui.fragment.unlogged.LoginFragment">
 
     <TextView
-        android:id="@+id/tv_log_status"
+        android:id="@+id/tv_about_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
@@ -38,9 +38,9 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/et_log_pass"
-        app:layout_constraintEnd_toEndOf="@+id/tv_log_status"
+        app:layout_constraintEnd_toEndOf="@+id/tv_about_status"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="@+id/tv_log_status" />
+        app:layout_constraintStart_toStartOf="@+id/tv_about_status" />
 
     <EditText
         android:id="@+id/et_log_pass"
